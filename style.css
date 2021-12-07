@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding:0px;
+
+}
+.grid{
+    width: 30vw;
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+   
+    font-size: 150px;
+    color: wheat;
+    text-align: center;
+    line-height: 7ch;
+    background-image: url(./images/vecteezySpaceMeteorIllustrationAP0621_generated.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px auto ;
+
+}
+.doodler{
+    width: 100px;
+    height: 85px;
+   background-image: url(./images/Group\ 80.svg);
+    background-size: 120px;
+    background-position:-10px ;
+    overflow: visible;
+    background-repeat: no-repeat;
+    
+    position: absolute;
+}
+.platform{
+    width: 85px;
+    height: 15px;
+    border-radius: 10px;
+    
+    position: absolute;
+    background-color: #f8ceec;
+background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+
+}
+.badplat{
+    width: 100px;
+    height: 30px;
+   
+   background-image: url(./images/Group\ 295.svg);
+   background-position: center;
+   background-size: 100%;
+    position: absolute;
+}
+.start{
+    position: absolute;
+    padding:0.5rem 2rem ;
+    font-size: 1.5rem;
+    letter-spacing: 0.4rem;
+    top: 60%;
+    left: 33%;
+    outline: none;
+    border:none;
+    border-radius: 35px;
+    font-weight: 700;
+    color: wheat ;
+    background-color:#1d1d43;
+    opacity: 0.8;
+    
+}
+.start:hover{
+    background-color: #37165c;
+}
